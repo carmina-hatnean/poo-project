@@ -19,6 +19,9 @@ echo Car::$counter. ' ' . $myCar->myCounter . PHP_EOL;
 $myCar2=new Car();
 echo Car::$counter. ' ' . $myCar2->myCounter . PHP_EOL;
 
+
+//==============================================================================================
+
 //Static methods
 
 
@@ -39,6 +42,10 @@ class Auto
 
 $myAuto = new Auto();
 Auto::getAvailableColors();
+
+
+//=================================================================================================
+
 
 // Clasa elStatic
 class elStatic {
