@@ -78,7 +78,6 @@ class Person3{
 $p = new Person3();
 echo $p->getMobilePhone();
 $p->setMobilePhone('111111');
-echo $p->getMobilePhone();
 
 // 9:27 https://www.youtube.com/watch?v=3dsI2xLgvL8&ab_channel=TheCodeholic
 
