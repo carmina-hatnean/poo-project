@@ -1,5 +1,5 @@
 <?php
-
+//Object assignment, cloning objects in PHP
 class Car
 {
     public $color = 'brown';
