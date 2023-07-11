@@ -1,5 +1,5 @@
 <?php
-
+//Class Constants in PHP
 class Car{
     public $color;
     public $manufacturer;
