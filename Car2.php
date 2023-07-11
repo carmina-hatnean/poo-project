@@ -1,5 +1,5 @@
 <?php
-// Static properties
+// Static properties and static methods
 class Car{
     public $color = 'red';
     private $weight=2000;
