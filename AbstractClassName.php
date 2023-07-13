@@ -20,10 +20,18 @@ abstract class Shape
 }
 
 class Triangle extends Shape
-{
+{   public $length;
+    public $height;
+    public function __construct($color, $length, $height)
+    {
+        parent::__construct($color);
+        $this->length=$length;
+        $this->height=$height;
+    }
+
     public function getArea(): float
     {
-
+        return $this->height * $this->length;
     }
 }
 class Circle extends Shape
@@ -57,8 +65,9 @@ class Rectangle extends Shape
         return $this->width * $this->length;
     }
 }
-$triangle=new Triangle("red");
+$triangle=new Triangle("red",10,5);
 $rectangle=new Rectangle("blue",200,300);
 $circle =new Circle('pink',10);
 echo $rectangle->getArea().PHP_EOL;
 echo $circle->getArea().PHP_EOL;
+echo $triangle->getArea();
