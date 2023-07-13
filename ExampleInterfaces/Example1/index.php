@@ -5,9 +5,11 @@ require_once 'MysqlDb.php';
 require_once 'SqliteDb.php';
 require_once 'RESTDb.php';
 
+//Only change happens here
 $app = new Application(
-
-    new SqliteDb()
+ //   new MysqlDb(),
+    //new SqliteDb()
+    new RESTDb()
 );
 
 $app->db->getOrders();
