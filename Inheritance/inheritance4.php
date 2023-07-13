@@ -60,5 +60,5 @@ class Student extends Person
 }
 $employee = new Emoployee("John", 27, '123456',2000);
 $student = new Student("John", 27, '123456','145352');
-echo $employee->hello() .PHP_EOL;
+echo $employee->hello() . PHP_EOL;
 echo $student->hello();
