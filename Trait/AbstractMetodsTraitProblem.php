@@ -22,7 +22,7 @@ trait EngineTrait
 
 class Plain
 {
-    use FlyableTrait, EngineTrait;
+//    use FlyableTrait, EngineTrait;
     public function fly()
     {
         echo "I am flying at 800km/h speed";
@@ -31,7 +31,7 @@ class Plain
 
 class Helicopter
 {
-    use FlyableTrait, EngineTrait;
+//    use FlyableTrait, EngineTrait;
     public function fly()
     {
         echo "I am flying at 300km/h speed";
@@ -53,5 +53,3 @@ $helicopter->fly();
 // methods traits can have static properties, static methods and abstract methods and normal properties
 // traits can't have constant
 
-
-// am ramas la 7:44 https://www.youtube.com/watch?v=eeqa3nHI5mI&ab_channel=TheCodeholic
